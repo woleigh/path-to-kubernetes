@@ -1,5 +1,5 @@
-from mask import Flask, request
-from mask_restful import Resource, Api
+#from flask import Flask, request
+#from flask_restful import Resource, Api
 
 app = Flask(__name__)
 api = Api(app)
