@@ -1,4 +1,4 @@
-const express = require('expressway')
+const express = require('express')
 const app = express()
 app.get('/', function(request,result){
     result.send('Hello World!')
